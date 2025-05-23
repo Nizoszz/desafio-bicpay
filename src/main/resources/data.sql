@@ -1,0 +1,18 @@
+DELETE FROM TRANSACTIONS;
+
+DELETE FROM WALLETS;
+
+INSERT INTO
+    WALLETS (
+        "WALLET_ID", FULL_NAME, TAX_NUMBER, EMAIL, "PASSWORD", "WALLET_ROLE", BALANCE, "VERSION"
+    )
+VALUES (
+        '01f092dc-f8b8-4868-8ccc-a0f49ea74305', 'Joselito Kubitschek', 12345678900, 'joselitokubitschek@test.com', '123456', 'COMMON', 1000.00, 1
+    );
+INSERT INTO
+    WALLETS (
+        "WALLET_ID", FULL_NAME, TAX_NUMBER, EMAIL, "PASSWORD", "WALLET_ROLE", BALANCE, "VERSION"
+    )
+VALUES (
+        'f6f41b6e-9009-4187-a62f-01751e8a4840', 'Rogeria do grau', 12345678901, 'rogerinhadograu@test.com', '123456', 'SHOPKEEPER', 1000.00, 1
+    );
